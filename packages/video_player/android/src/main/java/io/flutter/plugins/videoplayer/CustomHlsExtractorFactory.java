@@ -81,7 +81,7 @@ public class CustomHlsExtractorFactory implements HlsExtractorFactory {
                     esReaderFactoryFlags |= DefaultTsPayloadReaderFactory.FLAG_IGNORE_H264_STREAM;
                 }
             }
-            esReaderFactoryFlags |= DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES
+            esReaderFactoryFlags |= DefaultTsPayloadReaderFactory.FLAG_ALLOW_NON_IDR_KEYFRAMES;
             extractor = new TsExtractor(TsExtractor.MODE_HLS, timestampAdjuster,
                     new DefaultTsPayloadReaderFactory(esReaderFactoryFlags, muxedCaptionFormats));
         }
