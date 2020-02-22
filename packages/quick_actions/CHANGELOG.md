@@ -1,3 +1,13 @@
+## 0.4.0+2
+
+* Make the pedantic dev_dependency explicit.
+
+## 0.4.0+1
+
+* Remove the deprecated `author:` field from pubspec.yaml
+* Migrate the plugin to the pubspec platforms manifest.
+* Require Flutter SDK 1.10.0 or greater.
+
 ## 0.4.0
 
 - Added missing documentation.
